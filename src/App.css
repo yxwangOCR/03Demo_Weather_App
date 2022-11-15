@@ -25,7 +25,8 @@ h1 {
 }
 
 .App input {
-  padding: 0.7rem 1.5rem;
+  padding: 1rem 1rem;
+  min-width: 20rem;
   font-size: 1.2rem;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.8);
@@ -39,8 +40,12 @@ h1 {
 
 .App::before {
   content: "";
-  background: url("https://picsum.photos/800/1200") no-repeat center
-    center/cover;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 45, 191, 1) 100%
+  );
   position: absolute;
   width: 100%;
   height: 100%;
